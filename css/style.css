@@ -1,0 +1,512 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Tahoma;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+/***** Header Section Started *****/
+.header-section{
+  width: 100%;
+  background: url(../img/banner.png) center top no-repeat;
+  background-size: cover;
+}
+/***** Menu Section Started *****/
+.menu-section{
+  width: 100%;
+}
+.menu-section .bg-light{
+  background: transparent!important;
+}
+.menu-section .navbar-light .navbar-nav .active{
+  color: #511de5;
+  font-weight: 600;
+  background: url(../img/horizontal.png) center bottom no-repeat;
+}
+.menu-section .navbar-light .navbar-nav .nav-link{
+  color: #1a1a1a;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 10px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #511de5;
+  font-weight: 600;
+  background: url(../img/horizontal.png) center bottom no-repeat;
+  background-size: contain;
+}
+.menu-section .right-login .nav-link{
+  color: #1a1a1a;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 10px;
+}
+.menu-section .right-login .nav-link:hover{
+  color: #511de5;
+  font-weight: 600;
+  background: url(../img/horizontal.png) center bottom no-repeat;
+  background-size: contain;
+}
+.menu-section .right-login .btn-info{
+  padding: 5px 45px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 40px;
+  border: 1px solid #511de5;
+  color: #fff;
+  background: linear-gradient(to right, #511de5 20% ,#0f86fa);
+  transition: 1s;
+}
+.menu-section .right-login .btn-info:hover{
+  color: #511de5;
+  border: 1px solid #511de5;
+  background: transparent;
+}
+/***** Menu Section Ended *****/
+
+/***** Banner Section Started *****/
+.banner-section{
+  width: 100%;
+  padding: 60px 0px 0px;
+}
+.banner-section .banner-inner{
+  width: 100%;
+  padding: 50px 0px 150px;
+  margin-top: 15%;
+}
+.banner-section .banner-inner h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.banner-section .banner-inner h1 span{
+  color: #511de5;
+}
+.banner-section .banner-inner .btn-info{
+  padding: 5px 25px;
+  margin: 30px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: 1px solid #f2f2f2;
+  color: #1a1a1a;
+  background: #f2f2f2;
+  transition: 1s;
+}
+.banner-section .banner-inner .btn-info:hover{
+  background: #511de5;
+  border: 1px solid #511de5;
+  color: #fff;
+}
+/***** Banner Section Ended *****/
+/***** Header Section Ended *****/
+
+/***** Highlight Section Started *****/
+.highlight-section{
+  width: 100%;
+  position: relative;
+  background: url(../img/highlight.png) center center no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
+}
+.highlight-section .highlight-inner .ab{
+  position: absolute;
+  top: -145%;
+  left: 0;
+}
+.highlight-section .highlight-inner h2{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/***** Highlight Section Ended *****/
+
+/***** Feature Section Started *****/
+.feature-section{
+    width: 100%;
+    padding: 90px 0px;
+}
+.feature-section .feature-inner{
+  width: 100%;
+  padding: 120px 120px 240px;
+  background: url(../img/feature.png) center bottom no-repeat;
+  background-size: cover;
+}
+.feature-section .feature-inner h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #1a1a1a;
+  margin-bottom: 35px;
+}
+.feature-section .feature-inner p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+.feature-section .feature-inner h4 strong{
+  font-size: 100px;
+  font-weight: 700;
+  background: linear-gradient(to right, #511de5 20% ,#0f86fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.feature-section .feature-inner h4 span{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+.feature-section .client{
+  width: 100%;
+  padding: 40px 0px;
+  text-align: center;
+}
+.feature-section .client img{
+  width: 85%;
+}
+/***** Feature Section Ended *****/
+
+/***** Quote Section Started *****/
+.quote-section{
+  width: 100%;
+  padding: 50px 0px ;
+  background: url(../img/rectangle\ 8.png) center top no-repeat;
+  background-size: cover;
+}
+.quote-section .picture-quote{
+  width: 100%;
+  padding: 100px;
+  background: url(../img/quote.png) center center no-repeat;
+  background-size: contain;
+}
+.quote-section .picture-quote p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin: 20px 0px 20px 25px;
+}
+.quote-section .picture-quote h6{
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  margin: 20px 0px 25px 25px;
+}
+.quote-section .quote-description{
+  width: 100%;
+  padding: 100px;
+}
+.quote-section .quote-description h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1a1a1a;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.quote-section .quote-description .btn-info{
+  padding: 5px 25px;
+  margin: 30px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: 1px solid #f2f2f2;
+  color: #1a1a1a;
+  background: #f2f2f2;
+  transition: 1s;
+}
+.quote-section .quote-description .btn-info:hover{
+  background: #511de5;
+  border: 1px solid #511de5;
+  color: #fff;
+}
+/***** Quote Section Ended *****/
+
+/***** Efficient Section Started *****/
+.efficient-section{
+  width: 100%;
+  padding: 30px 0px;
+}
+.efficient-section .efficient-inner{
+  width: 100%;
+  padding: 52px 0px;
+  margin-top: 40px;
+}
+.efficient-section .efficient-inner h2{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+.efficient-section .efficient-inner p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+.efficient-section .efficient-inner h6{
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 40px;
+  color: #1a1a1a;
+}
+.efficient-section .efficient-inner h6 img{
+  margin-right: 20px;
+}
+.efficient-section .efficient-inner .btn-info{
+  padding: 10px 20px;
+  margin: 30px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: 1px solid #511de5;
+  color: #fff;
+  background: linear-gradient(to right, #511de5 20% ,#0f86fa);
+  transition: 1s;
+}
+.efficient-section .efficient-inner .btn-info:hover{
+  background: transparent;
+  border: 1px solid #511de5;
+  color: #511de5;
+}
+/*****  Efficient Section Ended *****/
+
+/***** Icon Section Started *****/
+.icon-section{
+  width: 100%;
+  padding: 60px 0px;
+}
+.icon-section .title{
+  width: 100%;
+  padding: 30px 0px;
+  background: #fcfcfc;
+  text-align: center;
+}
+.icon-section .title h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+.icon-section .title p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1a1a1a;
+  margin-bottom: 50px;
+}
+.icon-section .icon-inner{
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.icon-section .icon-inner img{
+  mix-blend-mode: darken;
+  margin-bottom: 5px;
+}
+.icon-section .icon-inner h4{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.icon-section .icon-inner p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1a1a1a;
+}
+.icon-section .bor{
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+/***** Icon Section Ended *****/
+
+/***** Testimonial Section Started *****/
+.testimonial-section{
+  width: 100%;
+  padding: 80px 0px 30px;
+}
+.testimonial-section .title{
+  width: 100%;
+  padding: 100px 0px 30px;
+  background: #fcfcfc;
+  text-align: center;
+}
+.testimonial-section .title h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #1a1a1a;
+  margin-bottom: 70px;
+  margin-top: -20px;
+}
+.testimonial-section .test-inner{
+  width: 100%;
+  padding: 100px 20px 20px;
+  background: url(../img/comma.png);
+  background-size: cover;
+  box-shadow: 1px 4px 10px #ccc;
+  opacity: .5;
+}
+.testimonial-section .test-inner:hover{
+  opacity: 1;
+}
+
+.testimonial-section .test-inner .text-inner{
+  width: 100%;
+  padding: 0px 0px 50px;
+  text-align: center;
+}
+.testimonial-section .test-inner .text-inner p{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1a1a1a;
+}
+.testimonial-section .test-inner:hover .text-inner p{
+  background: linear-gradient(to right, #511de5 20% ,#0f86fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.testimonial-section .test-inner .deep-inner{
+  width: 100%;
+  text-align: center;
+}
+.testimonial-section .test-inner .deep-inner h4{
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.testimonial-section .test-inner .deep-inner p{
+  font-weight: 12px;
+  margin-top: -8px;
+}
+/***** Testimonial Section Ended *****/
+
+/***** Sub-footer Section Started *****/
+.footer-section{
+  width: 100%;
+  padding: 100px 0px;
+  background: url(../img/footer-bg.png) center bottom no-repeat;
+  background-size: contain;
+}
+.footer-section .faq{
+  width: 100%;
+  padding: 80px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+.footer-section .title{
+  width: 100%;
+  padding: 30px 0px;
+  background: #fcfcfc;
+  text-align: center;
+}
+.footer-section .faq .title h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #1a1a1a;
+  margin-bottom: 90px;
+}
+.footer-section .faq .faq-inner{
+  width: 100%;
+  padding: 0px 40px;
+}
+.footer-section .faq .faq-inner .card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0px;
+}
+.footer-section .faq .faq-inner .card-header{
+  padding: .75rem 0rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 0px;
+}
+.footer-section .faq .faq-inner .card-body{
+  padding: 12px;
+}
+.footer-section .faq .faq-inner .btn-link{
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.footer-section .faq .faq-inner .btn-link:hover{
+  color: #511de5;
+  text-decoration: none;
+}
+.footer-section .faq .faq-inner .btn-link:focus{
+  text-decoration: none;
+  color: #511de5;
+}
+.footer-section .faq .faq-inner .btn:focus{
+  outline: 0;
+  box-shadow: none;
+}
+/***** Sub-footer Section Ended *****/
+
+/***** Main-footer Section Started *****/
+.footer-section .main-footer-left{
+  width: 100%;
+  text-align: left;
+}
+.footer-section .main-footer-left ul{
+  margin: 95px 0px 0px;
+}
+.footer-section .main-footer-left li{
+  list-style: none;
+  display: inline-block;
+}
+.footer-section .main-footer-left li a{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-section .main-footer-right{
+  width: 100%;
+  text-align: right;
+}
+.footer-section .main-footer-right p{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin: 80px 0px 0px;
+}
+/***** Main-footer Section Ended *****/
